@@ -9,6 +9,10 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js)](https://nodejs.org/)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Windows%20|%20Linux-lightgrey)](https://github.com/sanchez314c/llama-wrangler/releases)
 
+## 📸 Main Interface
+
+![Llama Wrangler Screenshot](build_resources/screenshots/LlamaWrangler.jpg)
+
 > The Ultimate LLM Model Manager - Switch, Download, and Convert Models with Ease
 
 Llama Wrangler is a powerful desktop application that simplifies managing Large Language Models (LLMs). Built with Electron, it provides a beautiful dark UI for downloading models from HuggingFace and Ollama, automatically converting them to GGUF format, and hot-swapping between models instantly.
