@@ -82,14 +82,6 @@ cd llama-wrangler
 ./build-release-run.sh --platform all
 ```
 
-### Option 3: Download Pre-built Binary
-
-1. Go to the [Releases](https://github.com/sanchez314c/llama-wrangler/releases) page
-2. Download the appropriate version for your platform:
-   - **macOS**: `Llama-Wrangler-x.x.x.dmg` (Intel/Apple Silicon)
-   - **Windows**: `Llama-Wrangler-Setup-x.x.x.exe`
-   - **Linux**: `Llama-Wrangler-x.x.x.AppImage`
-3. Install and run the application
 
 ## 📋 Prerequisites
 
