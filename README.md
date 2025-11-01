@@ -258,35 +258,39 @@ pip3 install huggingface-hub requests
 ## 📁 Project Structure
 
 ```
-LlamaWrangler/
-├── build-release-run.sh  # One-command build & run script
-├── package.json          # Node.js configuration
-├── main.js              # Electron main process
-├── preload.js           # Preload script
-├── renderer.js          # Renderer process
-├── index.html           # Application UI
-├── webview-preload.js   # WebView preload script
-├── assets/              # Application assets
-│   ├── icon.png        # Application icon
-│   ├── icon.ico        # Windows icon
-│   └── icon.icns       # macOS icon
-├── dev/                 # Development files
-│   ├── CONTRIBUTING.md # Contribution guidelines
-│   ├── QUICK_REFERENCE.md # Quick reference guide
-│   ├── changelog.md    # Version history
-│   ├── breadcrumbs.md  # Development notes
-│   └── install.sh      # Setup helper
-├── _archive/           # Archived/backup files
-├── scripts/            # Utility scripts
+llama-wrangler/
+├── package.json          # Node.js configuration and dependencies
+├── package-lock.json     # Dependency lock file
+├── tsconfig.json         # TypeScript configuration
+├── .eslintrc.json        # ESLint configuration
+├── src/                  # Source code
+│   ├── main.js          # Electron main process
+│   ├── preload.js       # Preload script
+│   ├── renderer.js      # Renderer process
+│   ├── index.html       # Application UI
+│   ├── webview-preload.js # WebView preload script
+│   ├── assets/          # Application assets
+│   │   └── icons/       # Application icons
+│   ├── components/      # UI components
+│   ├── services/        # Business logic
+│   ├── styles/          # CSS stylesheets
+│   ├── types/           # TypeScript definitions
+│   └── utils/           # Utility functions
+├── build_resources/      # Build resources and assets
+│   ├── icons/          # Platform-specific icons
+│   └── screenshots/    # Application screenshots
+├── scripts/             # Utility scripts
+│   ├── build-compile-dist.sh # Universal build script
 │   ├── download_hf.py  # HuggingFace downloader
 │   └── download_ollama.py # Ollama downloader
-├── screenshots/        # Application screenshots
-└── dist/              # Build outputs (created after build)
+├── docs/                # Documentation
+├── archive/             # Archived/backup files
+└── dist/                # Build outputs (generated)
 ```
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](dev/CONTRIBUTING.md) for details.
+Contributions are welcome! Please feel free to submit pull requests or create issues for bug reports and feature requests.
 
 ### Development Setup
 
