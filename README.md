@@ -328,6 +328,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">
-  Made with 🦙 and ❤️ by Jasonn Michaels
-</p>
+**Llama Wrangler v1.0** - Universal LLM Model Manager
+Built with AI!
